@@ -1,0 +1,22 @@
+{
+    "name":"Simple Youtube Downloader",
+    "description": "Download the video from youtube easily",
+    "version":"0.1",
+    "author": "Or Belsky",
+    "permissions":["downloads"],
+    "background": {
+            "scripts": ["resources/background.js"]
+        },
+    "manifest_version":2,
+    "web_accessible_resources":["resources/code.js"],
+    "content_scripts":[
+        {
+            "matches":["https://www.youtube.com/watch*"],
+            "js":["resources/loader.js"],
+            "css":["resources/style.css"]
+        }
+    ]
+
+    
+
+}
