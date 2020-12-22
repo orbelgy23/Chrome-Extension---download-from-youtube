@@ -1,0 +1,32 @@
+
+#download_drop_menu{
+
+    width: 150px;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 5px 2px 15px rgba(0,0,0,.9);
+    position: absolute;
+    left: 230px;
+    top: 60px;
+    z-index: 9999;
+    display: none;
+}
+
+.download_drop_menu_shown{
+    display:block !important;
+
+}
+
+#drop_menu_ul > a{
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+#drop_menu_ul > a:hover{
+    background: #444;
+}
